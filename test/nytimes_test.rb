@@ -12,7 +12,7 @@ class NytimesTest < Minitest::Test
 
   def test_it_can_get_copyright
     #Set your code to the local variable, "result"
-
+    binding.pry
     assert result, "Copyright (c) 2018 The New York Times Company. All Rights Reserved."
   end
 
