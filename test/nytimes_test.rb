@@ -42,6 +42,8 @@ class NytimesTest < Minitest::Test
     assert_equal 2, tech.count
     assert_equal "Amazon’s Antitrust Antagonist Has a Breakthrough Idea",
       tech.first[:title]
+    assert_equal "Alibaba’s Jack Ma, China’s Richest Man, to Retire From Company He Co-Founded",
+      tech.last[:title]
   end
 
 end
